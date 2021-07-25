@@ -1,4 +1,5 @@
 import Node from "./Node";
+import FACES from "./Faces";
 class LinkedList {
   constructor() {
     this.head = null;
@@ -41,9 +42,9 @@ class LinkedList {
 
 let linkedList = new LinkedList();
 
-linkedList.push("NORTH");
-linkedList.push("EAST");
-linkedList.push("SOUTH");
-linkedList.push("WEST");
+linkedList.push(FACES.NORTH);
+linkedList.push(FACES.EAST);
+linkedList.push(FACES.SOUTH);
+linkedList.push(FACES.WEST);
 
 export default linkedList;

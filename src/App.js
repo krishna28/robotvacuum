@@ -62,6 +62,7 @@ function App() {
         });
         break;
       default:
+        console.warn("Not a valid option");
     }
   };
 
@@ -136,7 +137,7 @@ function App() {
         <div className="row">
           <nav>
             <div className="nav-wrapper">
-              <a href="#" className="brand-logo">
+              <a href="#!" className="brand-logo">
                 Robot Vacuum
               </a>
             </div>

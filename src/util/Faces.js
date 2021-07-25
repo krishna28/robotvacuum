@@ -1,3 +1,4 @@
+// constant file used to access in multiple places
 const FACES = {
   NORTH: "NORTH",
   SOUTH: "SOUTH",

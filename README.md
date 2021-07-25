@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Robot vacuum app created using Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+##Project description
+
+The application is a simulation of a robot vacuum moving in an area of dimensions 5 units by 5 units, here 1 unit is considered as 90px.
+There are no other obstructions in the area.
+The robot is free to roam around the area but must be prevented from leaving the area.
+Any movement that would result in the robot leaving the area must be prevented, however further valid movement commands must still be allowed.
 
 ## Available Scripts
 

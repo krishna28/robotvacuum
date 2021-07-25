@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/robotvacuum/static/css/main.0bb6e75e.chunk.css",
+    "main.js": "/robotvacuum/static/js/main.d3bd0d78.chunk.js",
+    "main.js.map": "/robotvacuum/static/js/main.d3bd0d78.chunk.js.map",
+    "runtime-main.js": "/robotvacuum/static/js/runtime-main.11597bda.js",
+    "runtime-main.js.map": "/robotvacuum/static/js/runtime-main.11597bda.js.map",
+    "static/css/2.e43d3303.chunk.css": "/robotvacuum/static/css/2.e43d3303.chunk.css",
+    "static/js/2.2e01e01b.chunk.js": "/robotvacuum/static/js/2.2e01e01b.chunk.js",
+    "static/js/2.2e01e01b.chunk.js.map": "/robotvacuum/static/js/2.2e01e01b.chunk.js.map",
+    "static/js/3.30ba6fa8.chunk.js": "/robotvacuum/static/js/3.30ba6fa8.chunk.js",
+    "static/js/3.30ba6fa8.chunk.js.map": "/robotvacuum/static/js/3.30ba6fa8.chunk.js.map",
+    "index.html": "/robotvacuum/index.html",
+    "static/css/2.e43d3303.chunk.css.map": "/robotvacuum/static/css/2.e43d3303.chunk.css.map",
+    "static/css/main.0bb6e75e.chunk.css.map": "/robotvacuum/static/css/main.0bb6e75e.chunk.css.map",
+    "static/js/2.2e01e01b.chunk.js.LICENSE.txt": "/robotvacuum/static/js/2.2e01e01b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11597bda.js",
+    "static/css/2.e43d3303.chunk.css",
+    "static/js/2.2e01e01b.chunk.js",
+    "static/css/main.0bb6e75e.chunk.css",
+    "static/js/main.d3bd0d78.chunk.js"
+  ]
+}

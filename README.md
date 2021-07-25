@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Project description
+## Project description
 
 The application is a simulation of a robot vacuum moving in an area of dimensions 5 units by 5 units, here 1 unit is considered as 90px.
 There are no other obstructions in the area.

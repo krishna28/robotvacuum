@@ -149,6 +149,7 @@ function App() {
                 <i className="material-icons prefix">X</i>
                 <input
                   type="number"
+                  data-testid="x"
                   ref={xRef}
                   min="0"
                   max="5"
@@ -159,6 +160,8 @@ function App() {
                 <i className="material-icons prefix">Y</i>
                 <input
                   type="number"
+                  id="y"
+                  data-testid="y"
                   className="validate"
                   ref={yRef}
                   min="0"
@@ -177,6 +180,7 @@ function App() {
               <button
                 className="waves-effect waves-light btn-small margin"
                 id="place"
+                data-testid="place"
                 onClick={handleRobotPlace}
               >
                 Place
@@ -187,6 +191,7 @@ function App() {
                 <button
                   className="waves-effect waves-light btn-small margin"
                   id="move"
+                  data-testid="move"
                   onClick={handleMove}
                 >
                   Move
@@ -194,6 +199,7 @@ function App() {
                 <button
                   className="waves-effect waves-light btn-small margin"
                   id="left"
+                  data-testid="left"
                   onClick={handleLeft}
                 >
                   Left
@@ -201,6 +207,7 @@ function App() {
                 <button
                   className="waves-effect waves-light btn-small margin"
                   id="right"
+                  data-testid="right"
                   onClick={handleRight}
                 >
                   Right
@@ -208,6 +215,7 @@ function App() {
                 <button
                   className="waves-effect waves-light btn-small margin"
                   id="report"
+                  data-testid="generateReport"
                   onClick={generateReport}
                 >
                   Report

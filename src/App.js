@@ -104,6 +104,11 @@ function App() {
     const y = yRef.current.value;
     const face = faceRef.current.value;
     if (!x || !y || !face || x < 0 || y < 0 || x > 5 || y > 5) {
+      M.toast({
+        html: "Invalid input, valid range for x and y(0,5)",
+        displayLength: 1500,
+        classes: "red lighten-1 rounded",
+      });
       return false;
     }
     setX(x);
